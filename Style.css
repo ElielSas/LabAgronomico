@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Visby CF Medium";
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  /* Global Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #hero {
+    background-image: url('Media/foto.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px #ffbf40;
+    border-style: solid;
+    color: cornsilk;
+ }
+  .header-style {
+    background-color: #1ca672;
+    padding-left: 20px;
+    color: cornsilk;
+  }
+  .containe-servicios {
+    display: flex;
+  }
+  .resize {
+    width: 10vh;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Styling for the social media icons */
+  .social-icons {
+    margin-top: 10px;
+  }
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  /* Styling for the contact info */
+  .container {
+    max-width: 800px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    line-height: 1.5;
+  }
+  .container-suelos {
+    max-width: auto;
+    padding: 20px;
+    background-image: url('Media/pexels-jan-kroon-1000057.jpg');
+    background-size: cover;
+    text-align: right;
+    color: #fdfdf7;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    line-height: 1.5;
+  }
+  #services {
+    padding-bottom: 10rem;
+    background-image: url('Media/campo1.jpg');
+    background-size: cover;
+    size: 100vh;
+    text-decoration: solid;
+    color: rgb(62, 121, 62);
+    font-weight: bolder;
+    font-style: italic;
+    height: 25rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  #certi {
+    color: #fdfdf7;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    text-align: left;
+    font-size: 2.3rem;
+    list-style-image: url('Media/Soybean.png');
+  }
+ 
+  .space {
+    width: 100%;
+    height: auto;
+  }
+  #about {
+    background-color: cornsilk;
+    color: #1ca672;
+    padding: 3rem;
+    text-align: center;
+  }
+  #about h1 {
+    font-size: 4rem;
+  }
+  .what {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 1000;
+    height: 9rem;
+    width: 9rem;
+  }
+  #cuadro {
+    float: right;
+    text-align: right;
+    border: rgb(253, 167, 68) solid 5px;
+    margin-right: 20px;
+    font-size: 3.6rem;
+    font-weight: 999;
+    color: #04571d;
+  }
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    h1 {
+      font-size: 3.5rem;
+    }
+    
+    h2 {
+      font-size: 2rem;
+    }
+    
+    .what {
+      height: 7rem;
+      width: 7rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+    #cuadro {
+      font-size: 1.5rem;
+      color: white;
+    }
+    #services {
+      color: white;
+    }
+    #certi {
+      font-size: 1rem;
+    }
+    #suelos {
+      font-size: 1.5rem;
+      color: #19d113;
+    }
+    #suelos h1 {
+      font-size: 2rem;
+    }
+    .container-suelos {
+      color: #ffffff ;
+      background-image: none;
+      background-color: black;
+    }
+  }
+
